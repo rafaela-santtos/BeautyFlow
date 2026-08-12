@@ -2,12 +2,10 @@
 ## Sistema de Gestão para Salões de Beleza
 
 BeautyFlow é um sistema de gestão desenvolvido para auxiliar salões de beleza no controle e acompanhamento de seus clientes, serviços e agendamentos, transformando os dados dos atendimentos em informações úteis para a gestão do negócio.
-⸻
 
 ## SOBRE O PROJETO 
 O BeautyFlow nasceu da necessidade de organizar, em um único sistema, as principais informações relacionadas aos clientes de um salão de beleza. O sistema terá como foco o gerenciamento da carteira de clientes, permitindo acompanhar seu histórico de atendimentos, serviços realizados, frequência, cancelamentos e faltas. Além disso, o sistema contará com agendamento de serviços e relatórios gerenciais, permitindo analisar o movimento do salão e identificar padrões de consumo dos clientes.
 
-⸻
 
 ## OBJETIVO 
 Desenvolver uma solução que facilite a gestão de clientes e forneça informações que auxiliem o responsável pelo salão na tomada de decisões.
@@ -25,7 +23,6 @@ O sistema deverá permitir, entre outras funcionalidades:
 * Identificar os serviços mais realizados;
 * Gerar relatórios sobre o movimento do salão.
 
-⸻
 
 ## FUNCIONALIDADES 
 
@@ -69,7 +66,6 @@ O sistema deverá fornecer informações para acompanhamento do negócio, como:
 * Frequência dos clientes;
 * Movimento mensal.
 
-⸻
 
 ## REGRAS DE NEGÓCIO 
 
@@ -89,7 +85,6 @@ O sistema deverá fornecer informações para acompanhamento do negócio, como:
 * **RN14:** A frequência do cliente deverá ser calculada com base em seus atendimentos realizados.
 * **RN15:** Os dados dos atendimentos deverão ser utilizados para a geração dos relatórios gerenciais.
    
-⸻
 
 ## TECNOLOGIAS 
 
@@ -111,7 +106,6 @@ O sistema deverá fornecer informações para acompanhamento do negócio, como:
 
 As tecnologias serão definidas e atualizadas conforme o desenvolvimento do projeto.
 
-⸻
 
 ## ARQUITETURA DO PROJETO 
 O projeto será desenvolvido de forma incremental, seguindo etapas de análise, desenvolvimento, testes e evolução da interface.
@@ -146,7 +140,6 @@ BeautyFlow
 
 └── 🧪 Testes
 
-⸻
 
  ## EVOLUÇÃO PLANEJADA 
 
@@ -163,20 +156,17 @@ BeautyFlow
 * Testes do sistema
 * Deploy
 
-⸻
 
 ## VISÃO FUTURA 
 O BeautyFlow será desenvolvido inicialmente com uma arquitetura que permita sua utilização em dispositivos móveis.
 A interface será planejada com foco em responsividade e experiência de uso em smartphones, permitindo futuramente sua evolução para uma aplicação mobile.
 
-⸻
 
 ## DESENVOLVEDORA 
 
 Rafaela Santana
 *Estudante de Análise e Desenvolvimento de Sistemas, com interesse em desenvolvimento de software, qualidade de software e tecnologia.*
 
-⸻
 
 ## STATUS DO PROJETO 
 *Em desenvolvimento*
