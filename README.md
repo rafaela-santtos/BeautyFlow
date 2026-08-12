@@ -67,6 +67,7 @@ O sistema deverá fornecer informações para acompanhamento do negócio, como:
 * Movimento mensal.
 
 
+
 ## REGRAS DE NEGÓCIO 
 
 * **RN01:** Um cliente deverá possuir um cadastro único no sistema.
@@ -167,7 +168,9 @@ A interface será planejada com foco em responsividade e experiência de uso em 
 
 
 ## DESENVOLVEDORA 
+
 Rafaela Santana
+
 *Estudante de Análise e Desenvolvimento de Sistemas, com interesse em desenvolvimento de software, qualidade de software e tecnologia.*
 
 
