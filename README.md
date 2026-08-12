@@ -86,6 +86,7 @@ O sistema deverá fornecer informações para acompanhamento do negócio, como:
 * **RN15:** Os dados dos atendimentos deverão ser utilizados para a geração dos relatórios gerenciais.
    
 
+
 ## TECNOLOGIAS 
 
 ### Backend
@@ -105,6 +106,7 @@ O sistema deverá fornecer informações para acompanhamento do negócio, como:
 * GitHub
 
 As tecnologias serão definidas e atualizadas conforme o desenvolvimento do projeto.
+
 
 
 ## ARQUITETURA DO PROJETO 
@@ -141,8 +143,8 @@ BeautyFlow
 └── 🧪 Testes
 
 
- ## EVOLUÇÃO PLANEJADA 
 
+ ## EVOLUÇÃO PLANEJADA 
 * Definição da proposta do sistema
 * Definição dos módulos principais
 * Definição das principais regras de negócio
@@ -157,18 +159,21 @@ BeautyFlow
 * Deploy
 
 
+
 ## VISÃO FUTURA 
 O BeautyFlow será desenvolvido inicialmente com uma arquitetura que permita sua utilização em dispositivos móveis.
 A interface será planejada com foco em responsividade e experiência de uso em smartphones, permitindo futuramente sua evolução para uma aplicação mobile.
 
 
-## DESENVOLVEDORA 
 
+## DESENVOLVEDORA 
 Rafaela Santana
 *Estudante de Análise e Desenvolvimento de Sistemas, com interesse em desenvolvimento de software, qualidade de software e tecnologia.*
 
 
+
 ## STATUS DO PROJETO 
 *Em desenvolvimento*
+
 
 O projeto está sendo desenvolvido de forma incremental, desde a etapa de análise e documentação até a implementação e testes.
