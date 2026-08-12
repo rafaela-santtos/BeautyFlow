@@ -179,4 +179,5 @@ Rafaela Santana
 *Em desenvolvimento*
 
 
-O projeto está sendo desenvolvido de forma incremental, desde a etapa de análise e documentação até a implementação e testes.
+
+### O projeto está sendo desenvolvido de forma incremental, desde a etapa de análise e documentação até a implementação e testes.
