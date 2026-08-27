@@ -1,4 +1,4 @@
-# BEAUTYFLOW 
+'''# BEAUTYFLOW 
 ## Sistema de Gestão para Salões de Beleza
 
 BeautyFlow é um sistema de gestão desenvolvido para auxiliar salões de beleza no controle e acompanhamento de seus clientes, serviços e agendamentos, transformando os dados dos atendimentos em informações úteis para a gestão do negócio.
@@ -20,7 +20,7 @@ O sistema deverá permitir, entre outras funcionalidades:
 * Aplicar regras de sinal para clientes com histórico de não comparecimento;
 * Consultar o histórico dos clientes;
 * Analisar a frequência dos clientes;
-* Identificar os serviços mais realizados;
+* Reconhecer os serviços mais realizados;
 * Gerar relatórios sobre o movimento do salão.
 
 
@@ -36,22 +36,22 @@ O sistema deverá permitir, entre outras funcionalidades:
 * Acompanhamento da frequência dos clientes.
 
 ### Gestão de Serviços
-* Cadastro de serviços;
-* Definição de valores;
-* Edição de serviços;
-* Ativação e desativação de serviços;
+* Cadastro dos procedimentos;
+* Precificação dos procedimentos realizados;
+* Edição do procedimento;
+* Ativação e desativação dos atendimentos;
 * Consulta dos serviços disponíveis.
 
 ### Agendamentos
-* Criação de agendamentos;
-* Seleção de cliente e serviço;
+* Origem dos agendamentos;
+* Escolha do cliente e serviço;
 * Definição de data e horário;
 * Registro do profissional responsável;
 * Registro do status do atendimento;
 * Registro de cancelamentos;
 * Registro de não comparecimento.
 
-### Controle de Sinal
+### Gestão de Sinal
 O sistema possuirá uma regra específica para clientes que apresentarem histórico de não comparecimento sem aviso prévio. Nesses casos, o próximo agendamento poderá exigir o pagamento de um sinal. 
 O responsável pelo salão poderá, excepcionalmente, liberar o agendamento sem sinal.
 
@@ -59,7 +59,7 @@ O responsável pelo salão poderá, excepcionalmente, liberar o agendamento sem 
 O sistema deverá fornecer informações para acompanhamento do negócio, como:
 * Quantidade de clientes atendidos;
 * Novos clientes;
-* Quantidade de atendimentos;
+* Quantidade de serviços realizados;
 * Cancelamentos;
 * Faltas;
 * Serviços mais realizados;
@@ -180,4 +180,4 @@ Rafaela Santana
 
 
 
-### O projeto está sendo desenvolvido de forma incremental, desde a etapa de análise e documentação até a implementação e testes.
+### O projeto está sendo desenvolvido de forma incremental, desde a etapa de análise e documentação até a implementação e testes.'''
