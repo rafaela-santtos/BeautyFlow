@@ -1,0 +1,20 @@
+# Arquivos do Windows
+Thumbs.db
+Desktop.ini
+
+# Arquivos do editor
+.vscode/
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Configurações locais e senhas
+.env
+.env.*
+
+# Dependências
+/vendor/
+/node_modules/
+config/conexao.php
+teste_conexao.php

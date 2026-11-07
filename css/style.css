@@ -1,0 +1,307 @@
+ BEAUTYFLOW - IDENTIDADE VISUAL JS
+   ===================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #4B064B;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/* PÁGINA PRINCIPAL */
+
+.pagina-inicial {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+    text-align: center;
+    padding: 20px 15px 30px;
+}
+
+.logo {
+    width: 400px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.cabecalho h1 {
+    color: #570052;
+    font-size: 64px;
+    font-family: Georgia, serif;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    display: inline-block;
+    background-color: #F0D7F0;
+    color: #570052;
+    padding: 8px 35px;
+    border-radius: 30px;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.boas-vindas {
+    font-family: Georgia, serif;
+    font-size: 21px;
+    margin-top: 5px;
+    color: #570052;
+}
+
+/* MENU PRINCIPAL */
+
+.menu-principal {
+    margin-top: 15px;
+}
+
+.menu-principal h2 {
+    background-color: #570052;
+    color: white;
+    width: fit-content;
+    margin: 0 auto 25px;
+    padding: 12px 45px;
+    border-radius: 30px;
+    font-family: Georgia, serif;
+    font-size: 22px;
+}
+
+/* CARDS */
+
+.grade-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    min-height: 170px;
+    padding: 24px;
+    border: 1px solid #E8CBE8;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(87, 0, 82, 0.10);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 18px rgba(87, 0, 82, 0.14);
+}
+
+/* ÍCONES */
+
+.icone {
+    width: 110px;
+    height: 110px;
+    min-width: 110px;
+    border-radius: 50%;
+    background-color: #F0D7F0;
+    color: #570052;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
+}
+
+/* DESCRIÇÃO */
+
+.descricao {
+    flex: 1;
+}
+
+.descricao h3 {
+    color: #570052;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.descricao p {
+    color: #68466A;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* BOTÕES */
+
+.acoes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 190px;
+}
+
+.botao {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #570052;
+    color: #FFFFFF;
+    padding: 12px 14px;
+    border-radius: 11px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #79066F;
+}
+
+.botao.secundario {
+    background-color: #E8CBE8;
+    color: #570052;
+}
+
+.botao.secundario:hover {
+    background-color: #D8AFD8;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    text-align: center;
+    margin-top: 45px;
+    padding: 20px;
+    color: #570052;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 23px;
+}
+
+/* PÁGINAS INTERNAS: FORMULÁRIOS E TABELAS */
+
+body:not(:has(.pagina-inicial)) {
+    background-color: #FFFFFF;
+    color: #4B064B;
+}
+
+body:not(:has(.pagina-inicial)) h1,
+body:not(:has(.pagina-inicial)) h2,
+body:not(:has(.pagina-inicial)) h3 {
+    color: #570052;
+    margin-bottom: 15px;
+}
+
+body:not(:has(.pagina-inicial)) a {
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #570052;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+body:not(:has(.pagina-inicial)) a:hover {
+    background-color: #79066F;
+}
+
+body:not(:has(.pagina-inicial)) input,
+body:not(:has(.pagina-inicial)) select,
+body:not(:has(.pagina-inicial)) textarea {
+    width: 100%;
+    max-width: 450px;
+    padding: 11px;
+    border: 1px solid #D8AFD8;
+    border-radius: 8px;
+    margin: 6px 0 12px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+}
+
+body:not(:has(.pagina-inicial)) button {
+    background-color: #570052;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+body:not(:has(.pagina-inicial)) table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+}
+
+body:not(:has(.pagina-inicial)) th {
+    background-color: #570052;
+    color: #FFFFFF;
+    padding: 13px;
+    text-align: left;
+}
+
+body:not(:has(.pagina-inicial)) td {
+    padding: 12px;
+    border-bottom: 1px solid #E8CBE8;
+}
+
+body:not(:has(.pagina-inicial)) tr:hover {
+    background-color: #FBF5FB;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 900px) {
+    .grade-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    .cabecalho h1 {
+        font-size: 42px;
+    }
+
+    .subtitulo {
+        font-size: 17px;
+        padding: 8px 18px;
+    }
+
+    .card {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .icone {
+        width: 65px;
+        height: 65px;
+        min-width: 65px;
+        font-size: 32px;
+    }
+
+    .descricao h3 {
+        font-size: 21px;
+    }
+
+    .acoes {
+        width: 100%;
+    }
+
+    .rodape {
+        font-size: 18px;
+    }
+}
