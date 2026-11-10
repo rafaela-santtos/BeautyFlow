@@ -51,12 +51,15 @@ Para executar o projeto em ambiente local, são necessários:
 
 1. Instalar o XAMPP.
 2. Iniciar os serviços Apache e MySQL.
-3. Colocar a pasta do projeto no diretório `htdocs`.
-4. Criar o banco de dados MySQL utilizado pelo sistema.
-5. Configurar a conexão com o banco de dados no arquivo `config/conexao.php`.
-6. Acessar o sistema pelo navegador utilizando o endereço local do projeto.
+3. Baixar o repositório BeautyFlow e colocar a pasta do projeto no diretório `C:\xampp\htdocs\`.
+4. Acessar o phpMyAdmin pelo endereço `http://localhost/phpmyadmin`.
+5. Criar um banco de dados com o nome `beautyflow`.
+6. Selecionar o banco criado, acessar a opção **Importar** e selecionar o arquivo `beautyflow.sql`, disponível na pasta principal do projeto.
+7. Configurar a conexão com o banco de dados no arquivo `config/conexao.php`, conforme as configurações do ambiente local.
+8. Acessar `http://localhost/BeautyFlow/auth/criar_admin.php` para cadastrar o primeiro usuário administrador.
+9. Após o cadastro, acessar o sistema pelo endereço `http://localhost/BeautyFlow/` e realizar o login.
 
-**Observação:** o arquivo de conexão contém configurações locais e não é disponibilizado publicamente no repositório.
+**Observação:** O arquivo `config/conexao.php` contém configurações locais e não é disponibilizado publicamente no repositório. O arquivo `beautyflow.sql` contém a estrutura do banco de dados, sem registros de clientes.
 
 ## 6. Objetivo acadêmico
 
