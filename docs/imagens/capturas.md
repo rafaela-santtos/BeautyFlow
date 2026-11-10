@@ -22,3 +22,27 @@
 
 ### Lista de agendamentos
 ![Lista de agendamentos](agendamentos-lista.png)
+
+
+## Módulo de serviços
+
+### Cadastro de serviços
+![Cadastro de serviços](servicos-cadastro.png)
+
+### Lista de serviços
+![Lista de serviços](servicos-lista.png)
+
+
+## Módulo de profissionais
+
+### Cadastro de profissionais
+![Cadastro de profissionais](profissionais-cadastro.png)
+
+### Lista de profissionais
+![Lista de profissionais](profissionais-lista.png)
+
+
+## Gerenciamento de usuários
+
+### Lista de usuários
+![Lista de usuários](usuarios-lista.png)
