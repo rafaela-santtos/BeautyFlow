@@ -14,3 +14,11 @@
 
 ### Relatório de clientes
 ![Relatório de clientes](clientes-relatorio.png)
+
+## Módulo de agendamentos
+
+### Cadastro de agendamentos
+![Cadastro de agendamentos](agendamentos-cadastro.png)
+
+### Lista de agendamentos
+![Lista de agendamentos](agendamentos-lista.png)
